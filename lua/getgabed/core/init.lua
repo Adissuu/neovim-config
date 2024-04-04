@@ -1,2 +1,2 @@
-require("getgabed.core.remap")
+require("getgabed.core.keymaps")
 require("getgabed.core.options")

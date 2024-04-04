@@ -18,3 +18,18 @@ opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you inclues mixed case, assumes you want case-sensitive
 
 opt.cursorline = true
+
+--terminal style
+opt.termguicolors = true
+opt.background = "dark"
+opt.signcolumn = "yes"
+
+--backspace
+opt.backspace = "indent,eol,start"
+
+--clipboard
+opt.clipboard:append("unnamedplus") -- use system clipboard as default register
+
+--split windows
+opt.splitright = true
+opt.splitbelow = true
