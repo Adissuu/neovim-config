@@ -1,26 +1,12 @@
 return {
+  { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
   {
-    "catppuccin/nvim",
-    name = "catppuccin",
+    "baliestri/aura-theme",
+    lazy = false,
     priority = 1000,
-    opts = {
-      transparent_background = true,
-      integrations = {
-        telescope = true,
-        harpoon = true,
-        mason = true,
-        neotest = true,
-      }
-    },
-    config = function(_, opts)
-      require('catppuccin').setup(opts)
-      vim.cmd.colorscheme 'catppuccin-mocha'
+    config = function(plugin)
+      vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
+      vim.cmd([[colorscheme aura-dark]])
     end
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin-mocha",
-    },
-  },
+  }
 }
