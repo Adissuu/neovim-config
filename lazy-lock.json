@@ -1,6 +1,7 @@
 {
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
   "aura-theme": { "branch": "feat/neovim-port", "commit": "6c0b2244c57b9b8588c1f9ea9f56ef1d41d82e87" },
+  "auto-session": { "branch": "main", "commit": "64dc86e43c85f0062baafb0b607a6162efc99c91" },
   "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
   "nvim-tree.lua": { "branch": "master", "commit": "81eb8d519233c105f30dc0a278607e62b20502fd" },
   "nvim-treesitter": { "branch": "master", "commit": "46b587eb38701c02360042fce284cc8ec2653c30" },
