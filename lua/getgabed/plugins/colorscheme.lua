@@ -11,6 +11,8 @@ return {
       -- Set cross-hair colors
 			vim.cmd([[highlight CursorLine ctermbg=Yellow cterm=bold guibg=#32394a]])
 			vim.cmd([[highlight CursorColumn ctermbg=Yellow cterm=bold guibg=#32394a]])
+
+      -- Transparent background
       vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
     end
   }
