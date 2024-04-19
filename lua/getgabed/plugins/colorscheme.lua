@@ -14,6 +14,9 @@ return {
 
       -- Transparent background
       vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
-    end
+
+      -- #CF9FFF
+      vim.cmd("highlight MatchParen guifg=#ffffff guibg=#CF9FFF")
+    end,
   }
 }
